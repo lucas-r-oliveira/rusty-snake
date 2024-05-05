@@ -10,4 +10,7 @@ fn main() {
     snake1.eat();
     snake1.eat();
     snake1.eat();
+
+    snake1.translate(1.0, 1.0);
+    snake1.translate(-1.0, 1.0);
 }
